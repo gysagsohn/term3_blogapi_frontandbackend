@@ -12,7 +12,7 @@ app.use(express.json());
 app.get("/", (request, response, next) => {
 
 	response.json({
-		message: "Hello world!"
+		message: "Thank you for your purchase! Chelsea!"
 	});
 });
 
